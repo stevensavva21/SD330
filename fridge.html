@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Refrigerator Display</title>
+    <link rel="stylesheet" href="fridge.css">
+</head>
+<body>
+<div id="refrigerator-display">
+    <div id="header">
+        <div id="temperature">Temp: 0°F</div>
+        <div id="clock"></div>
+        <button id="power-button">Power On/Off</button>
+    </div>
+
+    <div id="feature-buttons">
+        <button id="fridge-view-btn">Fridge View</button>
+        <button id="tv-btn">TV</button>
+        <button id="browser-btn">Browser</button>
+        <button id="music-player-btn">Music Player</button>
+    </div>
+
+    <div id="display-area">
+        <img id="fridge-view-display" src="refridgerator.jpeg" alt="Inside Fridge" />
+        <img id="tv-display" src="netflix.jpeg" alt="TV" />
+        <img id="browser-display" src="google.png" alt="Google Homepage" />
+    </div>
+
+    <div id="shopping-list">
+        <h3>Shopping List</h3>
+        <ul id="items-list">
+            <li>Milk</li>
+            <li>Eggs</li>
+            <li>Bread</li>
+            <li>Cheese</li>
+            <li>Butter</li>
+        </ul>
+        <input type="text" id="new-item" placeholder="Add new item">
+        <button id="add-item-btn">Add Item</button>
+    </div>
+
+    <div id="timer">
+        <h3>Minute Timer</h3>
+        <input type="number" id="timer-input" placeholder="Enter minutes">
+        <button id="start-timer-btn">Start Timer</button>
+        <p id="timer-display"></p>
+    </div>
+</div>
+
+<audio id="audio-player" src="Enter Sandman.mp3"></audio>
+
+
+<script src="fridge.js"></script>
+</body>
+</html>

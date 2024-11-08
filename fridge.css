@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#refrigerator-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    border: 5px solid #333;
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+}
+
+#power-button, #feature-buttons button, #add-item-btn, #start-timer-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #28A745;
+    color: white;
+    border: none;
+}
+
+#clock, #temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#display-area, #shopping-list, #timer {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#display-area img, #display-area iframe {
+    display: none;
+    max-height: 200px;
+    max-width: 200px;
+}
