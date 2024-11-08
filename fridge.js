@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let isPowerOn = true;
     let timer;
 
-    // Update the clock every second
     function updateClock() {
         const now = new Date();
         const hours = now.getHours();
@@ -31,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     setInterval(updateClock, 1000);
 
-    // Simulate temperature fluctuation
     function updateTemperature() {
         const randomTemp = (Math.random() * 10 + 30).toFixed(1);
         temperatureDisplay.innerText = `Temp: ${randomTemp}°F`;
@@ -42,25 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
         isPowerOn = !isPowerOn;
     });
 
-    // Display Fridge View
     fridgeBtn.addEventListener('click', () => {
         clearDisplays();
         fridgeDisplay.style.display = 'block';
     });
 
-    // Display TV View
     tvBtn.addEventListener('click', () => {
         clearDisplays();
         tvDisplay.style.display = 'block';
     });
 
-    // Display Google Image when Browser Button is clicked
     browserBtn.addEventListener('click', () => {
         clearDisplays();
         browserDisplay.style.display = 'block';
     });
 
-    // Play or pause the song when Music Player button is clicked
     musicPlayerBtn.addEventListener('click', () => {
         if (audioPlayer.paused) {
             audioPlayer.play();
@@ -71,7 +65,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Add Item to Shopping List
     addItemBtn.addEventListener('click', () => {
         const newItem = newItemInput.value.trim();
         if (newItem) {
@@ -82,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Start Timer with Alert When Finished
     startTimerBtn.addEventListener('click', () => {
         let time = parseInt(timerInput.value) * 60;
         timerDisplay.innerText = `Time: ${time}s`;
@@ -98,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 1000);
     });
 
-    // Helper function to hide all displays
     function clearDisplays() {
         fridgeDisplay.style.display = 'none';
         tvDisplay.style.display = 'none';
