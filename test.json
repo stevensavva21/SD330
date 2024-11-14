@@ -1,0 +1,18 @@
+{
+  "name": "Racheltama",
+  "age": 21,
+  "university": "SUNY New Paltz",
+  "degree": "Bachelor's in Business Analytics",
+  "interests": [
+    "Field Hockey",
+    "Country Music",
+    "Diet Coke",
+    "Rocky",
+    "Friends"
+  ],
+  "work": {
+    "company": "Fuel 4 Life",
+    "role": "Accounting and Bookkeeping",
+    "location": "Tri-state Area"
+  }
+}
