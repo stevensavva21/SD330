@@ -1,0 +1,157 @@
+{
+  "parkingLots": [
+    {
+      "name": "Main Street Parking Lot",
+      "map": "MaristParking.jpg",
+      "totalSpaces": 120,
+      "comments": "Located near the baseball field",
+      "location": "Champagnat Way, Poughkeepsie, NY 12601",
+      "open24Hours": true,
+      "electricVehicleCharging": false,
+      "spaces": [
+        {
+          "spaceID": 1,
+          "type": "Faculty/Staff",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 2,
+          "type": "Student",
+          "status": "Filled",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": "2024-11-23T08:30:00",
+          "filledBy": "Student123"
+        },
+        {
+          "spaceID": 3,
+          "type": "Handicap",
+          "status": "Reserved",
+          "reserved": true,
+          "reservedDateTime": "2024-11-23T09:00:00",
+          "filledDateTime": null,
+          "reservedBy": "Faculty456"
+        },
+        {
+          "spaceID": 4,
+          "type": "Student",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 5,
+          "type": "Faculty/Staff",
+          "status": "Filled",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": "2024-11-23T07:45:00",
+          "filledBy": "Staff789"
+        },
+        {
+          "spaceID": 6,
+          "type": "Handicap",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 7,
+          "type": "Faculty/Staff",
+          "status": "Reserved",
+          "reserved": true,
+          "reservedDateTime": "2024-11-23T10:00:00",
+          "filledDateTime": null,
+          "reservedBy": "Faculty321"
+        },
+        {
+          "spaceID": 8,
+          "type": "Student",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 9,
+          "type": "Faculty/Staff",
+          "status": "Filled",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": "2024-11-23T08:00:00",
+          "filledBy": "Staff234"
+        },
+        {
+          "spaceID": 10,
+          "type": "Handicap",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 11,
+          "type": "Faculty/Staff",
+          "status": "Available",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": null
+        },
+        {
+          "spaceID": 12,
+          "type": "Student",
+          "status": "Filled",
+          "reserved": false,
+          "reservedDateTime": null,
+          "filledDateTime": "2024-11-23T08:15:00",
+          "filledBy": "Student456"
+        }
+      ]
+    },
+    {
+      "name": "Foy",
+      "map": "MaristParking.jpg",
+      "totalSpaces": 80,
+      "comments": "East side of campus",
+      "location": "3399 North Rd, Poughkeepsie, NY 12601",
+      "open24Hours": true,
+      "electricVehicleCharging": false,
+      "spaces":[]
+    },
+    {
+      "name": "Dyson",
+      "map": "MaristParking.jpg",
+      "totalSpaces": 50,
+      "comments": "Towards the middle of campus",
+      "location": "30 John Winslow Dr, Poughkeepsie, NY 12601",
+      "open24Hours": true,
+      "electricVehicleCharging": false,
+      "spaces": []
+    },
+    {
+      "name": "Donnely",
+      "map": "MaristParking.jpg",
+      "totalSpaces": 100,
+      "comments": "Ideal for visitors and event parking.",
+      "location": "51 Edvard Bech Dr, Poughkeepsie, NY 12601",
+      "open24Hours": false,
+      "electricVehicleCharging": true,
+      "spaces": []
+    },
+    {
+      "name": "Fontaine",
+      "map": "mapNorthCampus.jpg",
+      "totalSpaces": 75,
+      "comments": "Located near the east side of campus",
+      "location": "3399 North Rd, Poughkeepsie, NY 12601",
+      "open24Hours": true,
+      "electricVehicleCharging": false,
+      "spaces": []
+    }
+  ]
+}
