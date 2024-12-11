@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking App</title>
+    <link rel="stylesheet" href="parking.css">
+
+    <li><a href="404.html">Broken Link</a></li>
+
+</head>
+<body>
+<header>
+    <h1>Parking App</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#parking-lots">Parking Lots</a></li>
+            <li><a href="#reserve-spot">Reserve Spot</a></li>
+            <li><a href="#my-account">My Account</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the Parking App! Easily manage your parking needs with our intuitive interface.</p>
+    </section>
+
+    <section id="parking-lots">
+        <h2>Available Parking Lots</h2>
+        <ul id="lots-list"></ul>
+    </section>
+
+    <section id="reserve-spot">
+        <h2>Reserve a Parking Spot</h2>
+        <label for="lot-select">Choose a lot:</label>
+        <select id="lot-select">
+            <option value="Donnelly">Donnelly</option>
+            <option value="Foy">Foy</option>
+            <option value="Dyson">Dyson</option>
+            <option value="Fontaine">Fontaine</option>
+            <option value="Upper West">Upper West</option>
+            <option value="Lower West">Lower West</option>
+        </select>
+        <button onclick="reserveSpot()">Reserve</button>
+        <p id="reserve-result"></p>
+    </section>
+
+    <section id="my-account">
+        <h2>My Account</h2>
+        <button onclick="viewAccount()">View Details</button>
+        <div id="account-details"></div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Steven Savva</p>
+</footer>
+
+<script src="parking.js"></script>
+</body>
+</html>
+
+
+
